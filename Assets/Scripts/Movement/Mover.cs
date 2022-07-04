@@ -17,7 +17,7 @@ public class Mover : MonoBehaviour
     }
     public void EndingForwardMove()
     {
-        transform.DOMoveZ(1.2f + transform.position.z, 2f);
+        transform.DOMoveZ(1.1f + transform.position.z, 2f);
         //StartCoroutine(EndingMove());
     }
 }
